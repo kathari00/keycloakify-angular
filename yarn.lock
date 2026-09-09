@@ -1778,30 +1778,30 @@
   integrity sha512-fCTuZK4QBa+39Oz9l4OGfJfz+GpwCp3AqO7Zch3to99xHPgstVsRFpeQ8LNd2o1Gv8raL2mCFwiaHh7bFSp5DQ==
 
 "@storybook/angular@^10.5.10":
-  version "10.5.10"
-  resolved "https://registry.yarnpkg.com/@storybook/angular/-/angular-10.5.10.tgz#58e740273a4908095d6014cbef212a0004ab5f58"
-  integrity sha512-E0GnOQ8Dc2nAuvs0S1Lv4e0ZI/i6zh3iv0vXjWzOru1IUbVlcRUHvAlOKihM1XMorVK3CBHRqyWIvftfOO5XCA==
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/@storybook/angular/-/angular-10.6.0.tgz#7de169a9d4865e2ac54a592fbc8d99b4a1a13348"
+  integrity sha512-tIElbeB2bIHNSqRkrFhAbOfdtxz69c60XFLCgwUzWoEu6E9AkfvryZHch8TljfSplCMlAHWT0sNBEoXfJEkCFQ==
   dependencies:
-    "@storybook/builder-webpack5" "10.5.10"
+    "@storybook/builder-webpack5" "10.6.0"
     "@storybook/global" "^5.0.0"
     telejson "8.0.0"
     ts-dedent "^2.0.0"
     tsconfig-paths-webpack-plugin "^4.0.1"
     webpack "5"
 
-"@storybook/builder-webpack5@10.5.10":
-  version "10.5.10"
-  resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-10.5.10.tgz#104fc4b9e832ef00921db1594228a959fbaadc31"
-  integrity sha512-9ZBRusBwZStoCj3Wm4wVpSpKV8OlLMpadEQ+vvOVrtDQdVJWM5xdLQpqrG21r/cJC4ZX53ZpbrDL+NMsIp1Rkw==
+"@storybook/builder-webpack5@10.6.0":
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/@storybook/builder-webpack5/-/builder-webpack5-10.6.0.tgz#a39e6ad84f6880163e69476d40a53c40aadd4a61"
+  integrity sha512-j71OmQZ/+j9S/FYa64tIRuSsXdVxU87zthJ+StKUan6m7wA88YyCAXzk2hAHQsfC9MA52A0kMcOPluNZzIh3xQ==
   dependencies:
-    "@storybook/core-webpack" "10.5.10"
+    "@storybook/core-webpack" "10.6.0"
     case-sensitive-paths-webpack-plugin "^2.4.0"
     cjs-module-lexer "^1.2.3"
     css-loader "^7.1.2"
     es-module-lexer "^1.5.0"
     fork-ts-checker-webpack-plugin "^9.1.0"
     html-webpack-plugin "^5.5.0"
-    magic-string "^0.30.5"
+    magic-string "^1.1.0"
     semver "^7.7.3"
     style-loader "^4.0.0"
     terser-webpack-plugin "^5.3.17"
@@ -1811,10 +1811,10 @@
     webpack-hot-middleware "^2.25.1"
     webpack-virtual-modules "^0.6.0"
 
-"@storybook/core-webpack@10.5.10":
-  version "10.5.10"
-  resolved "https://registry.yarnpkg.com/@storybook/core-webpack/-/core-webpack-10.5.10.tgz#b3f2d99aa085c2bf782154383fb5ea5034fdae4e"
-  integrity sha512-CiUo4AZRKm3nVb6KWw+yfV6g6VSTA97msiVN9bJlBOFS1dax2ulrRNJnHJxR/U1AT51hONfU4dZOpCXRwaobTA==
+"@storybook/core-webpack@10.6.0":
+  version "10.6.0"
+  resolved "https://registry.yarnpkg.com/@storybook/core-webpack/-/core-webpack-10.6.0.tgz#c5db257506e5decc939729ccc967575024ab4a57"
+  integrity sha512-SoK12ABzn5d2RKvfN0rRIE9Eg63IOLfAHLdEy1visizwealqFFP/hVpd2CMW2V+ysUdGSUZ1+nFHiRjDr6mKJA==
   dependencies:
     ts-dedent "^2.0.0"
 
@@ -4152,7 +4152,7 @@ lru-cache@^11.0.0, lru-cache@^11.1.0:
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.3.2.tgz#349669d2a9eeb10cc706a9edb10d93bc7080a892"
   integrity sha512-wgWa6FWQ3QRRJbIjbsldRJZxdxYngT/dO0I5Ynmlnin8qy7tC6xYzbcJjtN4wHLXtkbVwHzk0C+OejVw1XM+DQ==
 
-magic-string@0.30.21, magic-string@^0.30.21, magic-string@^0.30.5:
+magic-string@0.30.21, magic-string@^0.30.21:
   version "0.30.21"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.30.21.tgz#56763ec09a0fa8091df27879fd94d19078c00d91"
   integrity sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==
@@ -4163,6 +4163,13 @@ magic-string@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-1.0.0.tgz#e0f1c16d20b1a993d6481007f49fe1f5ca9b38ff"
   integrity sha512-CGvjzMN08iv6w1mm4/x3Gh1hLb4VnyRUA15FFpl6CsCIGGoe36k7kY5KNz9QDbSBN5I/fWHM6ZlIkUTa5xdUEA==
+  dependencies:
+    "@jridgewell/sourcemap-codec" "^1.5.5"
+
+magic-string@^1.1.0:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-1.2.3.tgz#68f070ca0f05697c3ae57ce44a88fc7d483d4df1"
+  integrity sha512-Bpb0W2TbLKOZ7vJnOUnVRGq3WL2p+ISV29M6hYPL1AFCpyKZpdr5ytiXoTSSxRVhg8YW7f65+6gbG8WG6PCa/g==
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.5.5"
 
